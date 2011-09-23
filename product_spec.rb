@@ -21,4 +21,8 @@ describe Product do
   it "should be able to report" do
     subject.should respond_to(:report)
   end
+
+  it "should be able to buy" do
+    subject.should respond_to(:buy)
+  end
 end

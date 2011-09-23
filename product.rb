@@ -18,6 +18,10 @@ class Product
   def report
     puts "Haven't done anything"
   end
+
+  def buy
+    puts "Ima buying"
+  end
 end
 
 Product.new.values
