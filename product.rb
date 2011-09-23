@@ -14,6 +14,10 @@ class Product
   def sell
     puts "Selling myself"
   end
+
+  def report
+    puts "Haven't done anything"
+  end
 end
 
 Product.new.values

@@ -17,4 +17,8 @@ describe Product do
   it "should sell it self" do
     subject.should respond_to(:sell)
   end
+
+  it "should be able to report" do
+    subject.should respond_to(:report)
+  end
 end
