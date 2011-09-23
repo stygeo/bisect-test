@@ -9,4 +9,12 @@ describe Product do
   it "should be able to dance" do
     subject.should respond_to(:dance)
   end
+
+  it "should be able to move too" do
+    subject.should respond_to(:move)
+  end
+
+  it "should sell it self" do
+    subject.should respond_to(:sell)
+  end
 end
