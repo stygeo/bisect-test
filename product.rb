@@ -1,6 +1,6 @@
 class Product
   def values
-    1 + 1
+    1 + 2
   end
 
   def dance
